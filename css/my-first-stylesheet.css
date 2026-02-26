@@ -1,5 +1,11 @@
+h1 {
+    background-color: #c0c0ff;
+}
+
 body {
     background-color: Thistle;
+    border: 2px solid Gray;
+    border-radius: 16px;
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -9,4 +15,9 @@ body {
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+html {
+    background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+    background-size: 8px 8px;
 }
