@@ -1,3 +1,23 @@
+html {
+    background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+    background-size: 8px 8px;
+}
+
+body {
+    background-color: Thistle;
+    border: 2px solid Gray;
+    border-radius: 16px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 h1 {
     background-color: #c0c0ff;
 }
@@ -23,22 +43,33 @@ nav ul li:last-child {
     border-right: none;
 }
 
-body {
-    background-color: Thistle;
-    border: 2px solid Gray;
-    border-radius: 16px;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-    min-width: 256px;
-    padding-top: 8px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
+nav ul li a {
+    text-decoration: none;
 }
 
-html {
-    background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
-    background-size: 8px 8px;
+
+nav li.selected {
+    color: #606060;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
 }
