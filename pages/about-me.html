@@ -18,18 +18,6 @@
     <h1>About Me</h1>
     <p><img id="display-image" onclick="swapImage()" src="/images/01.png" alt="Pixelated image of Jess"></p>
     <p>Click the image to change it!</p>
-    <script>
-        function swapImage() {
-            var imageDisplayed = document.getElementById('display-image');
-            console.log(imageDisplayed);
-            if (imageDisplayed.src.match("/images/01.png")) {
-                imageDisplayed.src="/images/02.png"
-            }
-            else {
-                imageDisplayed.src = "/images/01.png"
-            }
-        }
-    </script>
     <p>My name Jess Mosquera, son of Jessel and Flossie Mosquera.</p>
     <p>I have four other siblings who I love so much (real, no sarcasm). They are:</p>
     <ul>
@@ -49,5 +37,6 @@
         <li>ormoc 4</li>
         <li>ormoc 5</li>
     </ol>
+<script src="/src/main.js"></script>
 </body>
 </html>
