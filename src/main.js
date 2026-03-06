@@ -7,3 +7,7 @@ function swapImage() {
         imageDisplayed.src = "/images/01.png"
     }
 }
+
+function displayFunFact() {
+    alert("My favorite sport is volleyball.");
+}
