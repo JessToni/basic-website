@@ -9,5 +9,6 @@ function swapImage() {
 }
 
 function displayFunFact() {
-    alert("My favorite sport is volleyball.");
+    let funFactID = document.getElementById('display-fun-fact');
+    funFactID.textContent = "My favorite sport is volleyball!"
 }

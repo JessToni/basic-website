@@ -77,3 +77,26 @@ a:active {
 #display-image{
     cursor: pointer;
 }
+
+@keyframes myAnimation {
+  from {background-color: #b577b5;}
+  to {background-color: beige;}
+  from {color: thistle;}
+  to {color: black;}
+}
+
+#fun-fact-button {
+    color: thistle;
+    cursor: pointer;
+    background-color: #b577b5;
+    border: 4px solid #111111;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#fun-fact-button:hover {
+    animation-name: myAnimation;
+    animation-duration: 1xs;
+}
