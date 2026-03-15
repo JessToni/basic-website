@@ -1,10 +1,10 @@
 function swapImage() {
     var imageDisplayed = document.getElementById('display-image');
-    if (imageDisplayed.src.match("/images/01.png")) {
-        imageDisplayed.src="/images/02.png"
+    if (imageDisplayed.src.match("/images/img01.jpg")) {
+        imageDisplayed.src="/images/img02.jpg"
     }
     else {
-        imageDisplayed.src = "/images/01.png"
+        imageDisplayed.src = "/images/img01.jpg"
     }
 }
 
